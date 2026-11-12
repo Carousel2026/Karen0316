@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f2e6d2">
+<meta name="description" content="如果只能留一樣東西當紀念，妳第一眼會選哪個？點開妳選的回憶，看完整解析。">
+<title>陪女兒的 18 個夏天｜K媽的回憶小測驗</title>
+<style>
+:root {
+  color-scheme: light;
+  --background:#f2e6d2;
+  --paper:#fffbf4;
+  --ink:#3a281b;
+  --brown:#88502d;
+  --edge:#dfc7a0;
+  --highlight:#e7c79a;
+  --serif:"Noto Serif TC","Songti TC","PMingLiU",serif;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0;
+  background:var(--background);
+  color:var(--ink);
+  font-family:"Noto Sans TC",-apple-system,BlinkMacSystemFont,"Microsoft JhengHei",sans-serif;
+  line-height:1.8;
+}
+h1,h2,h3,h4,p { margin:0; }
+.wrap { max-width:680px; margin-inline:auto; }
+.hero {
+  padding:62px 28px 44px;
+  text-align:center;
+  background:radial-gradient(ellipse at 88% 0%,#e7c79a88,transparent 65%);
+}
+.tag {
+  display:inline-block;
+  margin-bottom:20px;
+  padding:4px 14px;
+  border:2px solid var(--edge);
+  border-radius:999px;
+  background:var(--brown);
+  color:white;
+  box-shadow:4px 4px 0 var(--ink);
+  font-size:.8rem;
+  font-weight:700;
+}
+h1,h2,h3 { font-family:var(--serif); line-height:1.5; }
+h1 { font-size:clamp(1.55rem,5.8vw,1.9rem); font-weight:900; }
+mark {
+  display:inline-block;
+  border-radius:5px;
+  padding:.04em .3em;
+  background:var(--highlight);
+  color:inherit;
+}
+.hero p { margin-top:16px; color:#614e3e; font-size:.92rem; }
+.jump { display:inline-block; margin-top:19px; color:var(--brown); font-size:.88rem; font-weight:700; text-underline-offset:4px; }
+.quiz { padding:30px 28px 36px; scroll-margin-top:16px; }
+.quiz h2 { margin-bottom:8px; font-size:1.28rem; }
+.quiz-intro { margin-bottom:25px; color:#614e3e; font-size:.9rem; }
+.option {
+  margin-bottom:18px;
+  border:3px solid var(--edge);
+  border-radius:16px;
+  background:var(--paper);
+  box-shadow:4px 4px 0 var(--ink);
+}
+.option[open] { box-shadow:7px 7px 0 var(--ink); }
+summary {
+  display:flex;
+  align-items:center;
+  gap:13px;
+  min-height:68px;
+  padding:12px 18px;
+  border-radius:12px;
+  cursor:pointer;
+  font-weight:700;
+  list-style:none;
+}
+summary::-webkit-details-marker { display:none; }
+summary::after {
+  content:"";
+  width:8px;
+  height:8px;
+  margin-left:auto;
+  border-right:2px solid var(--brown);
+  border-bottom:2px solid var(--brown);
+  transform:translateY(-2px) rotate(45deg);
+  flex:none;
+}
+.option[open] summary::after { transform:translateY(2px) rotate(225deg); }
+:focus-visible { outline:3px solid var(--brown); outline-offset:4px; }
+.letter {
+  display:grid;
+  place-items:center;
+  flex:0 0 34px;
+  height:34px;
+  border:2px solid var(--edge);
+  border-radius:50%;
+  background:var(--highlight);
+  line-height:1;
+}
+.reading { margin:0 18px 19px; padding-top:17px; border-top:2px dashed var(--edge); }
+.reading-label,.reading h4 { color:var(--brown); font-size:.82rem; font-weight:700; }
+.reading h3 { margin:3px 0 18px; font-size:1.16rem; }
+.reading p:not(.reading-label) { margin-top:6px; font-size:.94rem; }
+.reading > p + p:not(.reading-label) { margin-top:11px; }
+.note { margin-top:18px; padding:12px 14px; border-left:4px solid #b5764a; border-radius:8px; background:#fdf0df; }
+footer { padding:12px 28px 42px; text-align:center; color:#614e3e; font-size:.85rem; }
+.sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+@media(max-width:380px) {
+  .hero { padding-inline:16px; }
+  .quiz { padding-inline:18px; }
+  summary { padding-inline:12px; }
+}
+
+.gem { margin-top:24px; padding-top:18px; border-top:2px dashed var(--edge); }
+.gem-card { display:grid; grid-template-columns:minmax(0,1fr) clamp(82px,24vw,150px); gap:12px; align-items:start; margin-top:8px; padding:14px; border:2px solid var(--edge); border-radius:14px; background:#fdf0df; }
+.gem-card h4 { color:var(--ink); font-family:var(--serif); font-size:1.08rem; }
+.gem-card img { display:block; width:100%; aspect-ratio:1; object-fit:cover; border:1px solid var(--edge); border-radius:9px; }
+.gem .stones { color:#614e3e; font-size:.82rem; }
+.gem-link { display:inline-flex; align-items:center; min-height:44px; margin-top:10px; padding:5px 13px; border-radius:999px; background:var(--brown); color:white; font-size:.85rem; font-weight:700; text-decoration:none; }
+.gem .coupon { margin:9px 0 0; font-size:.85rem; }
+@media(max-width:360px) { .gem-card { padding:10px; gap:8px; } }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="hero">
+    <span class="tag">親子回憶 · 四種解析</span>
+    <h1>妳最想留下女兒童年的<br><mark>哪一種回憶？</mark></h1>
+    <p>如果只能留一樣東西當紀念，妳第一眼會選哪個？</p>
+    <a class="jump" href="#choose">往下找妳選的字母 ↓</a>
+  </header>
+  <section id="choose" class="quiz" aria-labelledby="quiz-title">
+    <span class="tag">點開妳選的字母</span>
+    <h2 id="quiz-title">妳想留住的是哪一段回憶？</h2>
+    <p class="quiz-intro">點一下妳選的那一樣，就能看完整解析</p>
+    <details name="memory" class="option" id="choice-a">
+      <summary><span class="letter" aria-hidden="true">A</span><span><span class="sr-only">A </span>全家福</span></summary>
+      <div class="reading">
+        <p class="reading-label">妳想留下的回憶</p>
+        <h3>妳想留住的是大家都在的那一天</h3>
+        <h4>妳心裡可能閃過這句話</h4>
+        <p>「要是那天有拍一張就好了。」</p>
+        <h4>為什麼妳會捨不得</h4>
+        <p>妳翻相簿的時候，可能會把同一張全家福放大好幾次。看她那時候還比妳矮多少，看家裡那張早就換掉的沙發，再看站在旁邊的自己。拍照那天，妳大概只想著快一點，飯要涼了，還有人眼睛沒睜開。</p>
+        <p>妳很常是那個喊「來，大家靠近一點」的人。手機裡有她掉第一顆牙的照片、有她跟家人一起吹蠟燭的照片，偏偏很少有人順手幫妳拍一張。偶爾翻到有自己的那張，妳也想多看一會兒。原來她那時候已經大到抱起來會手痠，妳還是把她抱得好緊。</p>
+        <p>有時候妳想再過一次的，可能只是很普通的一頓飯。有人一邊吃一邊挑蔥，女兒講到一半自己先笑了，妳還叫她嘴巴裡有東西不要講話。那些聲音平常嫌吵，隔了很久，想再聽一次就很難了。</p>
+        <h4>想跟妳說的一句話</h4>
+        <p>下次有人拿起手機，妳也走進去吧。桌上還有碗、頭髮亂一點都好。以後她想看小時候的照片，妳也有一張可以指給她看，說「妳看，那時候妳還坐在我腿上。」</p>
+        <div class="note"><h4>這禮拜可以做的一件事</h4><p>找一天吃完晚餐，把手機架起來拍張合照。拍完在相簿註記那天她說過的一句話。</p></div>
+        <section class="gem" aria-labelledby="gem-a">
+          <p class="reading-label">K媽的水晶推薦</p>
+          <div class="gem-card">
+            <div>
+              <h4 id="gem-a">光輝歲月</h4>
+              <p class="stones">拉長石 × 紅虎眼石 × 銀曜石 × 茶水晶</p>
+              <p>如果妳想留住一家人一起走過的日子，茶水晶和紅虎眼石的暖色，很像翻開舊相簿時看到的光。</p>
+              <a class="gem-link" href="https://omnicrystal.store/shop/destiny-crystals/zodiac/d8/?utm_source=Karen&amp;utm_medium=message" target="_blank" rel="noopener">看看這一款 <span aria-hidden="true">↗</span></a>
+              <p class="coupon">折扣碼 <strong>Karen</strong></p>
+            </div>
+            <img src="https://evoke728.github.io/kma-pages/img/crystals/guanghui-suiyue.jpg" alt="光輝歲月水晶手鍊" width="150" height="150" loading="lazy" decoding="async">
+          </div>
+        </section>
+      </div>
+    </details>
+    <details name="memory" class="option" id="choice-b">
+      <summary><span class="letter" aria-hidden="true">B</span><span><span class="sr-only">B </span>她畫的畫</span></summary>
+      <div class="reading">
+        <p class="reading-label">妳想留下的回憶</p>
+        <h3>妳想記得她小時候眼裡的世界</h3>
+        <h4>妳心裡可能閃過這句話</h4>
+        <p>「她那時候到底在想什麼？好想再聽她講一次。」</p>
+        <h4>為什麼妳會捨不得</h4>
+        <p>她可能把太陽畫得比房子還大，還讓全家人都穿同一雙紫色鞋子。妳一問，她就很認真地說，這樣大家走散了才找得到。那個答案妳可能一下就笑出來，後來忙了幾年，卻只剩那張畫還記得她說過這句話。</p>
+        <p>她拿畫來給妳看，通常都挑妳手上有事的時候。妳在切菜、回訊息，嘴上先說了「好漂亮」，眼睛還沒看完。後來翻到那張被她折了好幾次的紙，妳可能會想，早知道那時候就把手機放下來，聽她把右下角那個小人也介紹完。</p>
+        <p>妳大概也想知道，她還會把哪些事講給妳聽。長大一點後，放學問她今天怎麼樣，可能就只剩一句「還好啊」。小時候光是一隻走進教室的蟲，就能一路講到你們家門口。妳有時候很想念那個覺得什麼都要跟妳說的她。</p>
+        <h4>想跟妳說的一句話</h4>
+        <p>如果她現在還願意拿作品給妳看，下次可以問一個只有她答得出來的問題。像是「為什麼這個人站在屋頂上？」妳多聽一句，就多知道一件她本來沒打算講的事。</p>
+        <div class="note"><h4>這禮拜可以做的一件事</h4><p>在畫的背面寫上日期，再留一行她當時怎麼介紹這幅畫。以後翻到時，妳就知道那隻狗是哪一隻了。</p></div>
+        <section class="gem" aria-labelledby="gem-b">
+          <p class="reading-label">K媽的水晶推薦</p>
+          <div class="gem-card">
+            <div>
+              <h4 id="gem-b">感覺很好</h4>
+              <p class="stones">白水晶貔貅 × 青金石 × 藍月光</p>
+              <p>青金石的藍，讓人想起孩子用蠟筆畫的天空。看到這串，也可以提醒自己下次多問她一句「這裡畫的是什麼？」</p>
+              <a class="gem-link" href="https://omnicrystal.store/shop/destiny-crystals/five-elements/a7/?utm_source=Karen&amp;utm_medium=message" target="_blank" rel="noopener">看看這一款 <span aria-hidden="true">↗</span></a>
+              <p class="coupon">折扣碼 <strong>Karen</strong></p>
+            </div>
+            <img src="https://evoke728.github.io/kma-pages/img/crystals/ganjue-henhao.jpg" alt="感覺很好水晶手鍊" width="150" height="150" loading="lazy" decoding="async">
+          </div>
+        </section>
+      </div>
+    </details>
+    <details name="memory" class="option" id="choice-c">
+      <summary><span class="letter" aria-hidden="true">C</span><span><span class="sr-only">C </span>她最常抱的玩偶</span></summary>
+      <div class="reading">
+        <p class="reading-label">妳想留下的回憶</p>
+        <h3>妳想留住她抱著玩偶來找妳的日子</h3>
+        <h4>妳心裡可能閃過這句話</h4>
+        <p>「以前都叫她快去睡，現在換我想再陪她一下。」</p>
+        <h4>為什麼妳會捨不得</h4>
+        <p>那隻玩偶可能早就洗到褪色，耳朵還有一道妳自己縫的線。她睡前找不到它的時候，妳嘴上說「明天再找啦」，最後還是蹲下來，把手伸進床跟牆壁中間摸半天。等她抱到它，眼睛一閉，妳才終於能去洗澡。</p>
+        <p>有些日子妳真的很累。她喊第三次「媽媽」，妳只想在客廳安靜坐五分鐘。後來有一天，她房門一關，自己就睡了。妳也終於能把那杯茶慢慢喝完，卻還是習慣走到門口，想聽聽裡面有沒有動靜。</p>
+        <p>妳想留住的，可能是她害怕時會直接來找妳的那份信任。她把玩偶一併塞進妳懷裡，屁股挪一挪就靠過來。長大後她也許只會傳一句「妳睡了嗎？」妳看見那幾個字，還是會跟以前一樣回她「還沒，怎麼啦？」</p>
+        <h4>想跟妳說的一句話</h4>
+        <p>玩偶要是還在，改天可以拿出來問她，還記不記得它叫什麼。也許她笑妳怎麼還留著，結果下一秒就接過去，摸了一下那隻妳縫過的耳朵。</p>
+        <div class="note"><h4>這禮拜可以做的一件事</h4><p>如果哪天要把玩偶收起來，先拍下它平常待的位置，再記下女兒給它取過的名字。</p></div>
+        <section class="gem" aria-labelledby="gem-c">
+          <p class="reading-label">K媽的水晶推薦</p>
+          <div class="gem-card">
+            <div>
+              <h4 id="gem-c">幸運女神</h4>
+              <p class="stones">紫水晶 × 綠螢石 × 白水晶</p>
+              <p>紫色和淡綠色，像她小時候會自己挑的玩具顏色。戴著它時，也許會想起她抱著玩偶、睡前還想再聽一個故事的樣子。</p>
+              <a class="gem-link" href="https://omnicrystal.store/shop/destiny-crystals/zodiac/lucky/?utm_source=Karen&amp;utm_medium=message" target="_blank" rel="noopener">看看這一款 <span aria-hidden="true">↗</span></a>
+              <p class="coupon">折扣碼 <strong>Karen</strong></p>
+            </div>
+            <img src="https://evoke728.github.io/kma-pages/img/crystals/xingyun-nvshen.jpg" alt="幸運女神水晶手鍊" width="150" height="150" loading="lazy" decoding="async">
+          </div>
+        </section>
+      </div>
+    </details>
+    <details name="memory" class="option" id="choice-d">
+      <summary><span class="letter" aria-hidden="true">D</span><span><span class="sr-only">D </span>她寫給妳的小卡</span></summary>
+      <div class="reading">
+        <p class="reading-label">妳想留下的回憶</p>
+        <h3>妳想留下她用自己的方式說愛妳的那一刻</h3>
+        <h4>妳心裡可能閃過這句話</h4>
+        <p>「原來那種我自己都忘了的小事，她還記得。」</p>
+        <h4>為什麼妳會捨不得</h4>
+        <p>小卡上可能只有一句「媽媽我愛妳」，愛字寫錯了又塗掉，紙也被橡皮擦擦出一個洞。妳大概還記得她交給妳的樣子。明明自己做了很久，卻把卡片塞進妳手裡，丟一句「妳等一下再看」就走掉。</p>
+        <p>當媽有很多事做完就做完了。她那天鞋子進水，妳回家找乾襪子給她換。她想吃的早餐賣完了，妳隔天早十分鐘出門去買。妳忙到只記得自己又遲到了，她卻可能在卡片上寫「謝謝媽媽那天幫我買蛋餅」。</p>
+        <p>有些晚上妳也會躺著想，今天是不是太兇了，早上那句話能不能講得好一點。後來整理抽屜翻到她的卡，妳才有機會從她寫的那幾個字裡，看看她記住的是什麼。也許那天妳頭髮亂得要命，還是蹲在校門口幫她把鞋帶綁好，她就記得這個。</p>
+        <h4>想跟妳說的一句話</h4>
+        <p>妳也可以回她一張。挑一件只有你們兩個知道的小事寫下來，像「妳那天看我累，自己去倒了兩杯水，一杯放我旁邊。那杯水我有喝完喔。」</p>
+        <div class="note"><h4>這禮拜可以做的一件事</h4><p>找一張妳一直留著的小卡，在旁邊夾一張便條，寫下收到那天妳最想回她的一句話。</p></div>
+        <section class="gem" aria-labelledby="gem-d">
+          <p class="reading-label">K媽的水晶推薦</p>
+          <div class="gem-card">
+            <div>
+              <h4 id="gem-d">伊莉莎白女王</h4>
+              <p class="stones">八角粉晶 × 白阿賽 × 粉水晶</p>
+              <p>粉晶的淡粉色，像小卡上她用力塗的那顆愛心。這串可以送給自己，留作收到那張小卡的紀念。</p>
+              <a class="gem-link" href="https://omnicrystal.store/shop/destiny-crystals/five-elements/a4/?utm_source=Karen&amp;utm_medium=message" target="_blank" rel="noopener">看看這一款 <span aria-hidden="true">↗</span></a>
+              <p class="coupon">折扣碼 <strong>Karen</strong></p>
+            </div>
+            <img src="https://evoke728.github.io/kma-pages/img/crystals/yilishabai-nvwang.jpg" alt="伊莉莎白女王水晶手鍊" width="150" height="150" loading="lazy" decoding="async">
+          </div>
+        </section>
+      </div>
+    </details>
+  </section>
+</main>
+<footer class="wrap">K媽 · 陪女兒的 18 個夏天</footer>
+</body>
+</html>
